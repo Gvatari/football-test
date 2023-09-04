@@ -19,7 +19,7 @@ export const league = {
       try {
         const { data } = await axios.get('https://api.football-data.org/v4/competitions/', {
           headers: {
-            'X-Auth-Token': 'cbbeeaa16bd2416db7f4d6408bd4cf6b'
+            'X-Auth-Token': ''
           }
         });
         ctx.commit('setCompetitions', data.competitions);

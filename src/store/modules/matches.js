@@ -19,7 +19,7 @@ export const matches = {
       try {
         const { data } = await axios.get(`https://api.football-data.org/v4/teams/${id}/matches?dateFrom=2021-07-01&dateTo=2022-01-01`, {
           headers: {
-            'X-Auth-Token': 'cbbeeaa16bd2416db7f4d6408bd4cf6b'
+            'X-Auth-Token': ''
           }
         });
         console.log(data);
